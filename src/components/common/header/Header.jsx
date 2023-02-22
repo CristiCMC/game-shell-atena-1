@@ -1,5 +1,6 @@
 import { FiMeh } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import { UserControls } from './UserControls';
 
 export const Header = () => {
     return (
@@ -11,7 +12,9 @@ export const Header = () => {
                 </Link>
             </h1>
 
-            <div>controls</div>
+            <div>
+                <UserControls></UserControls>
+            </div>
         </div>
     );
 };
