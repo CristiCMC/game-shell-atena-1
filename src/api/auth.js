@@ -2,7 +2,7 @@
 
 let initialized = false;
 const clientId =
-  '1036428115018-g9sq2u2mjs5jfk1harkk0ggvelbl65jt.apps.googleusercontent.com';
+  '979132773544-17a2u8srmiah2hf9qi3pfsg5apdped3u.apps.googleusercontent.com';
 
 export const initializeGoogleAuth = async () => {
   return new Promise((resolve) => {
