@@ -1,10 +1,7 @@
-import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FullscreenLayout } from '../layouts';
 
 export const FourOhFour = () => {
-  const dispatch = useDispatch();
-
   return (
     <FullscreenLayout>
       <div className="bg-pink-400 w-screen h-screen flex items-center justify-center">
@@ -15,17 +12,6 @@ export const FourOhFour = () => {
             Home
           </Link>
         </div>
-
-        <button
-          onClick={() => {
-            dispatch({
-              type: 'add',
-              payload: 404,
-            });
-          }}
-        >
-          Add 404 to state
-        </button>
       </div>
     </FullscreenLayout>
   );
